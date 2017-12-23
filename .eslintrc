@@ -1,0 +1,30 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "airbnb"
+    ],
+    "plugins": [
+        "babel",
+        "react"
+    ],
+    "env": {
+        "browser" : true,
+        "jest": true
+    },
+    "rules": {
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "space-before-function-paren": 0,
+        "react/jsx-indent": [ "error", 4 ],
+        "react/prop-types": 0,
+        "semi": [ 2, "always" ],
+        "react/jsx-filename-extension": 0,
+        "camelcase": 0,
+        "no-console": 0,
+        "vars-on-top": 0,
+        "no-bitwise": [ "error", {
+            "int32Hint": true
+        } ]
+    }
+}

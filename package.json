@@ -1,0 +1,38 @@
+{
+    "name": "whatsleft",
+    "version": "0.0.0",
+    "description": "What's Left - Visual representation of the time you've got left",
+    "main": "index.js",
+    "author": "Guillaume Rochat",
+    "license": "MIT",
+    "scripts": {
+        "compile": "webpack",
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "material-ui": "^0.20.0",
+        "moment": "^2.20.1",
+        "numeral": "^2.0.6",
+        "rc-progress": "^2.2.5",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4",
+        "react-tap-event-plugin": "^3.0.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.24.1",
+        "babel-eslint": "^7.2.3",
+        "babel-loader": "^7.0.0",
+        "babel-preset-env": "^1.5.1",
+        "babel-preset-react": "^6.24.1",
+        "eslint": "^3.19.0",
+        "eslint-config-airbnb": "^15.0.1",
+        "eslint-plugin-babel": "^4.1.1",
+        "eslint-plugin-import": "^2.6.0",
+        "eslint-plugin-jsx-a11y": "^5.1.0",
+        "eslint-plugin-react": "^7.1.0",
+        "express": "^4.15.3",
+        "nodemon": "^1.11.0",
+        "webpack": "^2.6.1",
+        "webpack-dev-middleware": "^1.10.2"
+    }
+}
